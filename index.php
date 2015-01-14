@@ -16,6 +16,13 @@
 	{
 		include 'calculatrice.html';
 	}
+	else 
+	{
+		if($_GET['page']=="articles")
+		{
+			include 'articles.html';
+		}
+	}
 	include 'footer.html'; ?>
 	</body>
 </html>
