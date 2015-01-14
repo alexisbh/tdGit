@@ -25,7 +25,7 @@ Accueil</a>
 <?php if (isset($_GET['page']))
 if ($_GET['page']=="presentation")
 echo "class=\"current\""; ?> >
-Présentation</a>
+Presentation</a>
 </li>
 <li><a href="index.php?page=articles" title="Articles"
 <?php if (isset($_GET['page']))
